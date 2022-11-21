@@ -1,7 +1,25 @@
-.katex {color:#F0412E;}
+/* .katex {color:#F0412E;} */
 
-body {
+/* body {
     color:#103860;
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
+    } */
+
+.katex { font-size: 1.5em !important; }
+
+body {
+    color:var(--white);
+    font-family: 'Nunito Sans', sans-serif;
+    font-weight: 700;
+    background-color:var(--Green);
     }
+
+
+:root {
+    --white: #FFFFFF;
+    --DarkBlue: #103860;
+    --Orange: #F29024;
+    --Red: #F0412E;
+    --Green: #17C7A5;
+}
