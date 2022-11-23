@@ -1,4 +1,6 @@
-/* .katex {color:#F0412E;} */
+ .katex {
+     color:var(--Orange);
+}
 
 /* body {
     color:#103860;
@@ -9,10 +11,10 @@
 .katex { font-size: 1.5em !important; }
 
 body {
-    color:var(--white);
+    color:var(--DarkBlue);
     font-family: 'Nunito Sans', sans-serif;
     font-weight: 700;
-    background-color:var(--Green);
+/*     background-color:var(--Green); */
     }
 
 
